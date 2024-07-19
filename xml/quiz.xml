@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>Programation</disciplina>
+    <professor>
+        <nome>Mano Ciliro</nome>
+        <matrícula>00000000000000</matrícula>
+    </professor>
+    <turma>infoweb</turma>
+    <data>16.06.23</data>
+    <questões>
+        <questão>
+            <enunciado>Pergunta 1?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">N</alternativa>
+                <alternativa correta="sim">S</alternativa>
+                <alternativa correta="nao">N</alternativa>
+                <alternativa correta="nao">N</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Pergunta 2?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+              <alternativa correta="nao">N</alternativa>
+              <alternativa correta="sim">S</alternativa>
+              <alternativa correta="nao">N</alternativa>
+              <alternativa correta="nao">N</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Pergunta 3?</enunciado>
+            <pontuação>3</pontuação>
+            <alternativas>
+              <alternativa correta="sim">S</alternativa>
+              <alternativa correta="nao">N</alternativa>
+              <alternativa correta="nao">N</alternativa>
+              <alternativa correta="nao">N</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Pergunta 4?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+              <alternativa correta="nao">N</alternativa>
+              <alternativa correta="sim">S</alternativa>
+              <alternativa correta="nao">N</alternativa>
+              <alternativa correta="nao">N</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Pergunta 5?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+              <alternativa correta="nao">N</alternativa>
+              <alternativa correta="nao">N</alternativa>
+              <alternativa correta="sim">S</alternativa>
+              <alternativa correta="nao">N</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
