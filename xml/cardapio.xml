@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+<cardapio>
+  <prato id="P01">
+    <nome>Pão com queijo</nome>
+    <descricao>Pão com queijo</descricao>
+    <ingredientes>
+        <ingrediente>Pão</ingrediente>
+        <ingrediente>Queijo</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">04.99</preco>
+    <calorias>500</calorias>
+    <tempoPreparo>05 minutos</tempoPreparo>
+  </prato>
+  <prato id="P02">
+    <nome>Cuscuz com ovo</nome>
+    <descricao>Cuscuz com ovo</descricao>
+    <ingredientes>
+        <ingrediente>Cuscuz</ingrediente>
+        <ingrediente>Ovo</ingrediente>
+        <ingrediente>Sal</ingrediente>
+        <ingrediente>Água</ingrediente>
+        <ingrediente>Margarina</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">07.50</preco>
+    <calorias>1000</calorias>
+    <tempoPreparo>25 minutos</tempoPreparo>
+  </prato>
+  <prato id="P03">
+    <nome>VItamina de banana</nome>
+    <descricao>Vitamina de banana</descricao>
+    <ingredientes>
+        <ingrediente>Leite</ingrediente>
+        <ingrediente>Banana</ingrediente>
+        <ingrediente>Açucar</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">8.99</preco>
+    <calorias>190</calorias>
+    <tempoPreparo>03 minutos</tempoPreparo>
+  </prato>
+  <prato id="P04">
+    <nome>Macarrão com salsicha</nome>
+    <descricao>Macarrão com salsicha</descricao>
+    <ingredientes>
+        <ingrediente>Macarrão</ingrediente>
+        <ingrediente>Salsicha</ingrediente>
+        <ingrediente>Ketchup</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">1000.00</preco>
+    <calorias>800</calorias>
+    <tempoPreparo>20 minutos</tempoPreparo>
+  </prato>
+  <prato id="P05">
+    <nome>Sorvete de Chocolate</nome>
+    <descricao>Sorvete de chocolate com calda e cobertura de chocolate</descricao>
+    <ingredientes>
+        <ingrediente>Leite</ingrediente>
+        <ingrediente>Achocolatado</ingrediente>
+        <ingrediente>Gelo</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">5.50</preco>
+    <calorias>800</calorias>
+    <tempoPreparo>5 minutos</tempoPreparo>
+  </prato>
+</cardapio>
