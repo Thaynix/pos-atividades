@@ -23,7 +23,6 @@ xsi:schemaLocation="http://imobiliaria.org imobiliaria.xsd">
     </caracteristicas>
     <valor>10000000</valor>
   </imovel>
-
   <imovel>
     <descricao>lindo lindo lindo</descricao>
     <proprietario>
