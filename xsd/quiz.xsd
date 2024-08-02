@@ -28,7 +28,11 @@
             <sequence>
                 <element ref="q:enunciado"/>
                 <element ref="q:pontuacao"/>
-                <element ref="q:alternativas"/>
+                <simpleType ref="q:alternativas">
+                    <restriction base="string">
+                        <pattern value="Sim|Nao"/>
+                    </restriction>
+                </simpleType>
             </sequence>
         </complexType>
     </element>
