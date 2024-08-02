@@ -13,10 +13,10 @@
     
     <element name="ingredientes">
         <complexType>
-            <sequence> 
-                <element ref="c:ingrediente" maxOccours="unbounded"/>
+            <sequence>
+                <element ref="c:ingrediente" maxOccurs="unbounded"/>
             </sequence>
-        </complexType> 
+        </complexType>
     </element>
 
     <element name="preco">

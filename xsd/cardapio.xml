@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio xmlns="http://cardapio.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://cardapio.org cardapio.xsd">
+
+    <prato id="01">
+        <nome>Nescau</nome>
+        <descricao>mt bom nescau</descricao>
+        <ingredientes>
+          <ingrediente>leite</ingrediente>
+          <ingrediente>nescau</ingrediente>
+        </ingredientes>
+        <preco>2.50</preco>
+        <calorias>1000</calorias>
+        <tempoPreparo>5</tempoPreparo>
+    </prato>
+    <prato id="02">
+        <nome>Nescau 01</nome>
+        <descricao>mt bom nescau</descricao>
+        <ingredientes>
+          <ingrediente>leite</ingrediente>
+          <ingrediente>nescau</ingrediente>
+        </ingredientes>
+        <preco>2.50</preco>
+        <calorias>1000</calorias>
+        <tempoPreparo>5</tempoPreparo>
+    </prato>
+    <prato id="03">
+        <nome>Nescau 02</nome>
+        <descricao>mt bom nescau</descricao>
+        <ingredientes>
+          <ingrediente>leite</ingrediente>
+          <ingrediente>nescau</ingrediente>
+        </ingredientes>
+        <preco>2.50</preco>
+        <calorias>1000</calorias>
+        <tempoPreparo>5</tempoPreparo>
+    </prato>
+    <prato id="04">
+        <nome>Nescau 03</nome>
+        <descricao>mt bom nescau</descricao>
+        <ingredientes>
+          <ingrediente>leite</ingrediente>
+          <ingrediente>nescau</ingrediente>
+        </ingredientes>
+        <preco>2.50</preco>
+        <calorias>1000</calorias>
+        <tempoPreparo>5</tempoPreparo>
+    </prato>
+    <prato id="05">
+        <nome>Nescau 04</nome>
+        <descricao>mt bom nescau :D</descricao>
+        <ingredientes>
+          <ingrediente>leite</ingrediente>
+          <ingrediente>nescau</ingrediente>
+        </ingredientes>
+        <preco>2.50</preco>
+        <calorias>1000</calorias>
+        <tempoPreparo>5</tempoPreparo>
+    </prato>
+
+</cardapio>
