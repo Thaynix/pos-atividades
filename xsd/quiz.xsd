@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:q="http://quiz.org" targetNamespace="http://quiz.org" elementFormDefault="qualified">
+
+    <element name="disciplina"/>
+    <element name="nome"/>
+    <element name="matricula"/>
+    <element name="turma"/>
+    <element name="data"/>
+    <!-- QUESTÕES -->
+    <element name="enunciado"/>
+    <element name="pontuacao"/>
+    <element name="alternativas"/>
+
+
+
+
+    <element name="professor">
+        <complexType>
+            <sequence>
+                <element ref="q:matricula"/>
+                <element ref="q:nome"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="questoes">
+        <complexType>
+            <sequence>
+                <element ref="q:enunciado"/>
+                <element ref="q:pontuacao"/>
+                <element ref="q:alternativas"/>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>
