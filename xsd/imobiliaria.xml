@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imobiliaria xmlns="http://imobiliaria.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://imobiliaria.org imobiliaria.xsd">
+
+    <imovel>
+        <descricao>apartamento bonito</descricao>
+        <proprietario>
+            <nome>Jotinha</nome>
+            <email>jotinha123@gmail.com</email>
+            <telefone>(00) 4002-8922</telefone>
+        </proprietario>
+    <endereco>
+        <rua>Rua de pedrinhas bonitas</rua>
+        <bairro>no sul</bairro>
+        <cidade>Cidade 1</cidade>
+        <numero>402</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>4</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>0</numBanheiros>
+    </caracteristicas>
+    <valor>10000000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>lindo lindo lindo</descricao>
+    <proprietario>
+      <nome>Jussy de ery</nome>
+      <email>jussy1234@gmail.com</email>
+      <telefone>(22) 8922-8922</telefone>
+      <telefone>(22) 4002-8922</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua de pedrinhas feias</rua>
+      <bairro>sem nome</bairro>
+      <cidade>Cidade 2</cidade>
+      <numero>405</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>2000</tamanho>
+      <numQuartos>8</numQuartos>
+      <numBanheiros>5</numBanheiros>
+    </caracteristicas>
+    <valor>666</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>medieval com moderno, tem portas e janelas de carvalho escuro, piso de porcelanato bege claro, quartos grandes e espaçosos, tem suite com banheira, casa forrada com gesso, sala de jantar com lustre e mesa de madeiras com suas base superior de vidro temperado, todos os quartos tem cama com colchão macio e forradas com endredom e 4 travesseiros </descricao>
+    <proprietario>
+      <nome>gisele stafany</nome>
+      <email>bestyoulloveme@gmail.com</email>
+      <telefone>(84) 5113-9033</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua numero zero</rua>
+      <bairro>jardim das fadas</bairro>
+      <cidade>terra do esquecimento</cidade>
+      <numero>41</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>2000</tamanho>
+      <numQuartos>6</numQuartos>
+      <numBanheiros>8</numBanheiros>
+    </caracteristicas>
+    <valor>1000000000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>apartamento bonito</descricao>
+    <proprietario>
+      <nome>Jotinha</nome>
+      <email>jotinha123@gmail.com</email>
+      <telefone>(00) 4002-8922</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua de pedrinhas bonitas</rua>
+      <bairro>no sul</bairro>
+      <cidade>Cidade 1</cidade>
+      <numero>402</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>4</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>0</numBanheiros>
+    </caracteristicas>
+    <valor>10000000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>apartamento bonito</descricao>
+    <proprietario>
+      <nome>Jotinha</nome>
+      <email>jotinha123@gmail.com</email>
+      <telefone>(00) 4002-8922</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua de pedrinhas bonitas</rua>
+      <bairro>no sul</bairro>
+      <cidade>Cidade 1</cidade>
+      <numero>402</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>4</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>0</numBanheiros>
+    </caracteristicas>
+    <valor>10000000</valor>
+  </imovel>
+
+</imobiliaria>
