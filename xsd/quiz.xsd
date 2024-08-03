@@ -11,8 +11,14 @@
     <element name="pontuacao"/>
     <element name="alternativas"/>
 
-
-
+    <element name="quiz">
+        <complexType>
+            <sequence>
+                <element ref="q:questoes" maxOccurs="unbounded"/>
+                <element ref="q:professor"/>
+            </sequence>
+        </complexType>
+    </element>
 
     <element name="professor">
         <complexType>
@@ -28,11 +34,13 @@
             <sequence>
                 <element ref="q:enunciado"/>
                 <element ref="q:pontuacao"/>
-                <simpleType ref="q:alternativas">
-                    <restriction base="string">
-                        <pattern value="Sim|Nao"/>
-                    </restriction>
-                </simpleType>
+                <element name="alternativas">
+                    <simpleType>
+                        <restriction base="string">
+                            <pattern value="Sim|Nao"/>
+                        </restriction>
+                    </simpleType>
+                </element>
             </sequence>
         </complexType>
     </element>
