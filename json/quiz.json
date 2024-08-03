@@ -1,0 +1,62 @@
+{
+    "versao": "1.0",
+    "disciplina": "Programation",
+    "professor": {
+      "nome": "Mano Ciliro",
+      "matrícula": "00000000000000"
+    },
+    "turma": "infoweb",
+    "data": "16.06.23",
+    "questões": [
+      {
+        "enunciado": "Pergunta 1?",
+        "pontuação": 1,
+        "alternativas": [
+          { "correta": "nao", "texto": "N" },
+          { "correta": "sim", "texto": "S" },
+          { "correta": "nao", "texto": "N" },
+          { "correta": "nao", "texto": "N" }
+        ]
+      },
+      {
+        "enunciado": "Pergunta 2?",
+        "pontuação": 2,
+        "alternativas": [
+          { "correta": "nao", "texto": "N" },
+          { "correta": "sim", "texto": "S" },
+          { "correta": "nao", "texto": "N" },
+          { "correta": "nao", "texto": "N" }
+        ]
+      },
+      {
+        "enunciado": "Pergunta 3?",
+        "pontuação": 3,
+        "alternativas": [
+          { "correta": "sim", "texto": "S" },
+          { "correta": "nao", "texto": "N" },
+          { "correta": "nao", "texto": "N" },
+          { "correta": "nao", "texto": "N" }
+        ]
+      },
+      {
+        "enunciado": "Pergunta 4?",
+        "pontuação": 1,
+        "alternativas": [
+          { "correta": "nao", "texto": "N" },
+          { "correta": "sim", "texto": "S" },
+          { "correta": "nao", "texto": "N" },
+          { "correta": "nao", "texto": "N" }
+        ]
+      },
+      {
+        "enunciado": "Pergunta 5?",
+        "pontuação": 2,
+        "alternativas": [
+          { "correta": "nao", "texto": "N" },
+          { "correta": "nao", "texto": "N" },
+          { "correta": "sim", "texto": "S" },
+          { "correta": "nao", "texto": "N" }
+        ]
+      }
+    ]
+  }

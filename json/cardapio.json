@@ -1,0 +1,69 @@
+{
+    "prato": [
+        {
+            "nome": "Nescau",
+            "descricao": "mt bom nescau",
+            "ingredientes": {
+                "ingrediente": [
+                    "leite",
+                    "nescau"
+                ]
+            },
+            "preco": "2.50",
+            "calorias": "1000",
+            "tempoPreparo": "5"
+        },
+        {
+            "nome": "Nescau 01",
+            "descricao": "mt bom nescau",
+            "ingredientes": {
+                "ingrediente": [
+                    "leite",
+                    "nescau"
+                ]
+            },
+            "preco": "2.50",
+            "calorias": "1000",
+            "tempoPreparo": "5"
+        },
+        {
+            "nome": "Nescau 02",
+            "descricao": "mt bom nescau",
+            "ingredientes": {
+                "ingrediente": [
+                    "leite",
+                    "nescau"
+                ]
+            },
+            "preco": "2.50",
+            "calorias": "1000",
+            "tempoPreparo": "5"
+        },
+        {
+            "nome": "Nescau 03",
+            "descricao": "mt bom nescau",
+            "ingredientes": {
+                "ingrediente": [
+                    "leite",
+                    "nescau"
+                ]
+            },
+            "preco": "2.50",
+            "calorias": "1000",
+            "tempoPreparo": "5"
+        },
+        {
+            "nome": "Nescau 04",
+            "descricao": "mt bom nescau :D",
+            "ingredientes": {
+                "ingrediente": [
+                    "leite",
+                    "nescau"
+                ]
+            },
+            "preco": "2.50",
+            "calorias": "1000",
+            "tempoPreparo": "5"
+        }
+    ]
+}

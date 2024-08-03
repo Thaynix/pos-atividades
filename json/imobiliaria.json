@@ -1,0 +1,127 @@
+{
+    "imovel": [
+        {
+            "descricao": "apartamento bonito",
+            "proprietario": {
+                "nome": "Jotinha",
+                "email": "jotinha123@gmail.com",
+                "telefone": "(00) 4002-8922"
+            },
+            "endereco": {
+                "rua": "Rua de pedrinhas bonitas",
+                "bairro": "no sul",
+                "cidade": "Cidade 1",
+                "numero": "402"
+            },
+            "caracteristicas": {
+                "tamanho": "4",
+                "numQuartos": "1",
+                "numBanheiros": "0"
+            },
+            "valor": "10000000"
+        },
+        {
+            "descricao": "lindo lindo lindo",
+            "proprietario": {
+                "nome": "Jussy de ery",
+                "email": "jussy1234@gmail.com",
+                "telefone": [
+                    "(22) 8922-8922",
+                    "(22) 4002-8922"
+                ]
+            },
+            "endereco": {
+                "rua": "Rua de pedrinhas feias",
+                "bairro": "sem nome",
+                "cidade": "Cidade 2",
+                "numero": "405"
+            },
+            "caracteristicas": {
+                "tamanho": "2000",
+                "numQuartos": "8",
+                "numBanheiros": "5"
+            },
+            "valor": "666"
+        },
+        {
+            "descricao": "medieval com moderno, tem portas e janelas de carvalho escuro, piso de porcelanato bege claro, quartos grandes e espaçosos, tem suite com banheira, casa forrada com gesso, sala de jantar com lustre e mesa de madeiras com suas base superior de vidro temperado, todos os quartos tem cama com colchão macio e forradas com endredom e 4 travesseiros",
+            "proprietario": {
+                "nome": "gisele stafany",
+                "email": "bestyoulloveme@gmail.com",
+                "telefone": "(84) 5113-9033"
+            },
+            "endereco": {
+                "rua": "Rua numero zero",
+                "bairro": "jardim das fadas",
+                "cidade": "terra do esquecimento",
+                "numero": "41"
+            },
+            "caracteristicas": {
+                "tamanho": "2000",
+                "numQuartos": "6",
+                "numBanheiros": "8"
+            },
+            "valor": "1000000000"
+        },
+        {
+            "descricao": "apartamento bonito",
+            "proprietario": {
+                "nome": "Jotinha",
+                "email": "jotinha123@gmail.com",
+                "telefone": "(00) 4002-8922"
+            },
+            "endereco": {
+                "rua": "Rua de pedrinhas bonitas",
+                "bairro": "no sul",
+                "cidade": "Cidade 1",
+                "numero": "402"
+            },
+            "caracteristicas": {
+                "tamanho": "4",
+                "numQuartos": "1",
+                "numBanheiros": "0"
+            },
+            "valor": "10000000"
+        },
+        {
+            "descricao": "apartamento bonito",
+            "proprietario": {
+                "nome": "Jotinha",
+                "email": "jotinha123@gmail.com",
+                "telefone": "(00) 4002-8922"
+            },
+            "endereco": {
+                "rua": "Rua de pedrinhas bonitas",
+                "bairro": "no sul",
+                "cidade": "Cidade 1",
+                "numero": "402"
+            },
+            "caracteristicas": {
+                "tamanho": "4",
+                "numQuartos": "1",
+                "numBanheiros": "0"
+            },
+            "valor": "10000000"
+        },
+        {
+            "descricao": "apartamento bonito",
+            "proprietario": {
+                "nome": "Jotinha",
+                "email": "jotinha123@gmail.com",
+                "telefone": "(00) 4002-8922"
+            },
+            "endereco": {
+                "rua": "Rua de pedrinhas bonitas",
+                "bairro": "no sul",
+                "cidade": "Cidade 1",
+                "numero": "402"
+            },
+            "caracteristicas": {
+                "tamanho": "4",
+                "numQuartos": "1",
+                "numBanheiros": "0"
+            },
+            "valor": "10000000"
+        }
+    ]
+}
