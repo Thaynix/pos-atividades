@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio xmlns="http://cardapio.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://cardapio.org ../xsd/cardapio.xsd">
+  <prato id="1">
+    <nome>Pão com queijo</nome>
+    <descricao>Pão com queijo</descricao>
+    <ingredientes>
+        <ingrediente>Pão</ingrediente>
+        <ingrediente>Queijo</ingrediente>
+    </ingredientes>
+    <preco>04.99</preco>
+    <calorias>500</calorias>
+    <tempoPreparo>05 minutos</tempoPreparo>
+  </prato>
+  <prato id="2">
+    <nome>Cuscuz com ovo</nome>
+    <descricao>Cuscuz com ovo</descricao>
+    <ingredientes>
+        <ingrediente>Cuscuz</ingrediente>
+        <ingrediente>Ovo</ingrediente>
+        <ingrediente>Sal</ingrediente>
+        <ingrediente>Água</ingrediente>
+        <ingrediente>Margarina</ingrediente>
+    </ingredientes>
+    <preco>07.50</preco>
+    <calorias>1000</calorias>
+    <tempoPreparo>25 minutos</tempoPreparo>
+  </prato>
+  <prato id="3">
+    <nome>VItamina de banana</nome>
+    <descricao>Vitamina de banana</descricao>
+    <ingredientes>
+        <ingrediente>Leite</ingrediente>
+        <ingrediente>Banana</ingrediente>
+        <ingrediente>Açucar</ingrediente>
+    </ingredientes>
+    <preco>8.99</preco>
+    <calorias>190</calorias>
+    <tempoPreparo>03 minutos</tempoPreparo>
+  </prato>
+  <prato id="4">
+    <nome>Macarrão com salsicha</nome>
+    <descricao>Macarrão com salsicha</descricao>
+    <ingredientes>
+        <ingrediente>Macarrão</ingrediente>
+        <ingrediente>Salsicha</ingrediente>
+        <ingrediente>Ketchup</ingrediente>
+    </ingredientes>
+    <preco>1000.00</preco>
+    <calorias>800</calorias>
+    <tempoPreparo>20 minutos</tempoPreparo>
+  </prato>
+  <prato id="5">
+    <nome>Sorvete de Chocolate</nome>
+    <descricao>Sorvete de chocolate com calda e cobertura de chocolate</descricao>
+    <ingredientes>
+        <ingrediente>Leite</ingrediente>
+        <ingrediente>Achocolatado</ingrediente>
+        <ingrediente>Gelo</ingrediente>
+    </ingredientes>
+    <preco>5.50</preco>
+    <calorias>800</calorias>
+    <tempoPreparo>5 minutos</tempoPreparo>
+  </prato>
+</cardapio>
