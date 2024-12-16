@@ -1,33 +1,60 @@
+import json
 from xml.dom.minidom import parse
 
 dom = parse("imobiliaria.xml")
 
-cardapio = dom.documentElement
+imobiliaria = dom.documentElement
 
-imoveis = cardapio.getElementsByTagName('imovel')
+imoveis = imobiliaria.getElementsByTagName("imovel")
+
+imoveis_lista = []
 
 for imovel in imoveis:
-    id_do_imovel = imovel.getAttribute('id')
-    
-    elemento_desc = imovel.getElementsByTagName('descricao')[0]
-    descricao = elemento_desc.firstChild.nodeValue
-    
-    elemento_proprietario = imovel.getElementsByTagName('proprietario')[0]
-    nome_proprietario = elemento_proprietario.getElementsByTagName('nome')[0]
-    email_proprietario = elemento_proprietario.getElementsByTagName('email')[0]
-    telefone_proprietario = elemento_proprietario.getElementsByTagName('telefone')[0]
+    descricao = imovel.getElementsByTagName("descricao")[0].firstChild.nodeValue
 
-    elemento_endereco = imovel.getElementsByTagName('endereco')[0]
-    rua_endereco = elemento_endereco.getElementsByTagName('rua')[0]
-    bairro_endereco = elemento_endereco.getElementsByTagName('bairro')[0]
-    cidade_endereco = elemento_endereco.getElementsByTagName('cidade')[0]
-    numero_endereco = elemento_endereco.getElementsByTagName('numero')[0]
+    proprietario_element = imovel.getElementsByTagName("proprietario")[0]
+    nome_proprietario = proprietario_element.getElementsByTagName("nome")[0].firstChild.nodeValue
+    emails = [email.firstChild.nodeValue for email in proprietario_element.getElementsByTagName("email")]
+    telefones = [telefone.firstChild.nodeValue for telefone in proprietario_element.getElementsByTagName("telefone")]
 
-    elemento_caracteristicas = imovel.getElementsByTagName('caracteristicas')[0]
-    tamanho_car = elemento_caracteristicas.getElementsByTagName('caracteristicas')[0]
-    num_quartos_car = elemento_caracteristicas.getElementsByTagName('caracteristicas')[0]
-    num_banheiros_car = elemento_caracteristicas.getElementsByTagName('caracteristicas')[0]
-    numero_car = elemento_caracteristicas.getElementsByTagName('caracteristicas')[0]
-    
-    
+    endereco_element = imovel.getElementsByTagName("endereco")[0]
+    rua = endereco_element.getElementsByTagName("rua")[0].firstChild.nodeValue
+    bairro = endereco_element.getElementsByTagName("bairro")[0].firstChild.nodeValue
+    cidade = endereco_element.getElementsByTagName("cidade")[0].firstChild.nodeValue
+    numero_elements = endereco_element.getElementsByTagName("numero")
+    numero = numero_elements[0].firstChild.nodeValue if numero_elements else None
 
+    caracteristicas_element = imovel.getElementsByTagName("caracteristicas")[0]
+    tamanho = caracteristicas_element.getElementsByTagName("tamanho")[0].firstChild.nodeValue
+    num_quartos = caracteristicas_element.getElementsByTagName("numQuartos")[0].firstChild.nodeValue
+    num_banheiros = caracteristicas_element.getElementsByTagName("numBanheiros")[0].firstChild.nodeValue
+
+    valor = imovel.getElementsByTagName("valor")[0].firstChild.nodeValue
+
+    imovel_dict = {
+        "descricao": descricao,
+        "proprietario": {
+            "nome": nome_proprietario,
+            "emails": emails,
+            "telefones": telefones,
+        },
+        "endereco": {
+            "rua": rua,
+            "bairro": bairro,
+            "cidade": cidade,
+            "numero": numero,
+        },
+        "caracteristicas": {
+            "tamanho": tamanho,
+            "numQuartos": num_quartos,
+            "numBanheiros": num_banheiros,
+        },
+        "valor": valor,
+    }
+
+    imoveis_lista.append(imovel_dict)
+
+json_output = json.dumps(imoveis_lista, indent=4, ensure_ascii=False)
+
+with open("imobiliaria.json", "w", encoding="utf-8") as json_file:
+    json_file.write(json_output)
