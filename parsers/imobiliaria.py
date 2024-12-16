@@ -8,8 +8,10 @@ imobiliaria = dom.documentElement
 imoveis = imobiliaria.getElementsByTagName("imovel")
 
 imoveis_lista = []
+id_imovel = 0
 
 for imovel in imoveis:
+    id_imovel += 1
     descricao = imovel.getElementsByTagName("descricao")[0].firstChild.nodeValue
 
     proprietario_element = imovel.getElementsByTagName("proprietario")[0]
@@ -32,6 +34,7 @@ for imovel in imoveis:
     valor = imovel.getElementsByTagName("valor")[0].firstChild.nodeValue
 
     imovel_dict = {
+        "id": id_imovel,
         "descricao": descricao,
         "proprietario": {
             "nome": nome_proprietario,
